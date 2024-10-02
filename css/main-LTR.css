@@ -3525,6 +3525,8 @@ body.rounded-btns .read-more {
   padding-bottom: 1rem;
   border-radius: 0.5rem;
   transition: all 0.3s ease-in-out 0s;
+  text-align: left;
+  padding-left: 80px;
 }
 .contact-info-card:last-of-type {
   padding-bottom: 0;
@@ -3559,6 +3561,7 @@ body.rounded-btns .read-more {
   display: block;
   position: relative;
   padding-bottom: 1rem;
+  text-align: left;
 }
 .footer-menu-item .icon {
   font-size: 0.75rem;

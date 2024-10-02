@@ -2,7 +2,7 @@
 - **Published On**: 24/09/2023
 - **Author**: Maurice Flynn
 - **Revision**: John Eme
-- **Topic**: Artificial Intelligence, AI, AI Bot, Education, AI PROF
+- **Topic**: Artificial Intelligence, AI, AI Bot, Education, Robots4Business
 
 ---
 # Improving an AI Bot
