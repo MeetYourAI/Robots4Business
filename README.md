@@ -25,19 +25,19 @@
 - [📝 License](#license)
 
 
-# AiProf  <a name="about-project"></a>
-**AiProf** is an Education Platform project where you'll be learning with the help of AI.
-AiProf - Unleash the Power of Artificial Intelligence
+# Robots4Business  <a name="about-project"></a>
+**Robots4Business** is an Education Platform project where you'll be learning with the help of AI.
+Robots4Business - Unleash the Power of Artificial Intelligence
 
-Welcome to AiProf, your gateway to exploring and harnessing the capabilities of artificial intelligence. Our platform brings you a world of cutting-edge AI functions and services that cater to a wide range of applications. Whether you're a developer, a data scientist, or simply curious about AI, AiProf offers you a diverse array of tools to supercharge your projects.
+Welcome to Robots4Business, your gateway to exploring and harnessing the capabilities of artificial intelligence. Our platform brings you a world of cutting-edge AI functions and services that cater to a wide range of applications. Whether you're a developer, a data scientist, or simply curious about AI, Robots4Business offers you a diverse array of tools to supercharge your projects.
 
-Why AiProf?
-At AiProf, we're committed to democratizing artificial intelligence. Our platform empowers individuals, businesses, and researchers to tap into the potential of AI without barriers. Whether you're a seasoned Robots4Businessessional or a newcomer to the field, AiProf is designed to enhance your capabilities, facilitate innovation, and drive your projects forward.
+Why Robots4Business?
+At Robots4Business, we're committed to democratizing artificial intelligence. Our platform empowers individuals, businesses, and researchers to tap into the potential of AI without barriers. Whether you're a seasoned Robots4Businessessional or a newcomer to the field, Robots4Business is designed to enhance your capabilities, facilitate innovation, and drive your projects forward.
 
 Get Started Today:
-Embark on your AI journey with AiProf. Explore, experiment, and excel in the world of artificial intelligence. Join our community of AI enthusiasts and professionals to shape the future of technology.
+Embark on your AI journey with Robots4Business. Explore, experiment, and excel in the world of artificial intelligence. Join our community of AI enthusiasts and professionals to shape the future of technology.
 
-Let AiProf redefine your AI experience and unlock new horizons of possibilities!
+Let Robots4Business redefine your AI experience and unlock new horizons of possibilities!
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -68,7 +68,7 @@ Let AiProf redefine your AI experience and unlock new horizons of possibilities!
 
 ## 🚀 You can check the Live Demo here<a name="live-demo"></a>
 
-[AiProf Live Demo](https://meetyourai.github.io/AiProf/) 
+[Robots4Business Live Demo](https://meetyourai.github.io/Robots4Business/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,8 +87,8 @@ Example commands:
   
   ```
     cd my-folder 
-    git clone https://github.com/MeetYourAI/AIProf
-    cd AIProf
+    git clone https://github.com/MeetYourAI/Robots4Business
+    cd Robots4Business
   ```
 
 
@@ -148,7 +148,7 @@ You can deploy this project using:
 
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/ibugithub/AiProf/issues).
+Feel free to check the [issues page](https://github.com/ibugithub/Robots4Business/issues).
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

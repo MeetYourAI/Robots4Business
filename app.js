@@ -1,5 +1,5 @@
 // //test for github traffic github api
-// const repoName = 'AIProf'; // repository name
+// const repoName = 'Robots4Business'; // repository name
 // //env variable for github access token 
 //  //const accessToken = GH_ACCESS_TOKEN; GitHub access token
 // const apiUrl = `https://api.github.com/repos/MeetYourAI/${repoName}/traffic/views`;

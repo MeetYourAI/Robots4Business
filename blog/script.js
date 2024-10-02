@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const markdownFiles = [
       'InprovingAIBot20230924.md',
       'VertexAIimggen20230924.md',
-      'RecruitingsenioradvisorsAiprof20230922.md',
+      'RecruitingsenioradvisorsRobots4Business20230922.md',
       'ChatGptWeaknessOnEducation20230901.md',
       'AnswersofAIweaknesses20230901.md',
       'AdventuresWithAIonEducation20230901.md',

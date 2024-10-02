@@ -11,7 +11,7 @@ I have found the tech incubator model is not widely understood - as always when 
 
 - **Tech Incubator Definition:** Tech incubator simply means creating lots of tech products with young teams that are innovative but need senior guidance.
 
-- **Product Prototypes:** Best if I send you a link to a website to the product prototypes relevant to your area - [Product Prototypes](https://meetyourai.github.io/AIProf/). We may end up combining these two. As you can see, it's just a webpage half-finished describing the concept. We are building the backend to connect. Should be ready in the coming weeks. When working, you can see how companies can use these tools to create rough content ideas for their marketing. Then their content experts can fine-tune. Make more sense?
+- **Product Prototypes:** Best if I send you a link to a website to the product prototypes relevant to your area - [Product Prototypes](https://meetyourai.github.io/Robots4Business/). We may end up combining these two. As you can see, it's just a webpage half-finished describing the concept. We are building the backend to connect. Should be ready in the coming weeks. When working, you can see how companies can use these tools to create rough content ideas for their marketing. Then their content experts can fine-tune. Make more sense?
 
 - **Senior Advisor Role:** Senior advisor role = guide young team targeting a sector or vertical you know (e.g., marketing agencies). Pretend you are the client and critique. They fast improve.
 

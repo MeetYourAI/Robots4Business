@@ -728,7 +728,7 @@ $(function () {
 
   function shareOnFacebook() {
     // Set website url to be shared and Message
-    var urlToShare = 'https://meetyourai.github.io/AIProf/';
+    var urlToShare = 'https://meetyourai.github.io/Robots4Business/';
     var shareMessage = 'Check out this amazing website! Learning made easy with Artificial Intelligence';
 
     // Construct the Facebook share URL
@@ -747,7 +747,7 @@ $(function () {
 
   function shareOnTwitter() {
     // Set website url to be shared and Message
-    var urlToShare = 'https://meetyourai.github.io/AIProf/';
+    var urlToShare = 'https://meetyourai.github.io/Robots4Business/';
     var tweetMessage = 'Check out this awesome website! Learning made easy with Artificial Intelligence';
 
     // Construct the Twitter share URL
@@ -766,7 +766,7 @@ $(function () {
 
   function shareOnWhatsApp() {
     // Set website url to be shared and Message
-    var urlToShare = 'https://meetyourai.github.io/AIProf/';
+    var urlToShare = 'https://meetyourai.github.io/Robots4Business/';
     var message = 'Learning made easy with AI: Check out this website: ' + urlToShare;
 
     // Create a WhatsApp share link
