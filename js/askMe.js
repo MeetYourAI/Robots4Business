@@ -7,50 +7,54 @@ let forVoice = " ";
 
 
 document.addEventListener("DOMContentLoaded", () => {
+  async function askQuestionChatGPT(question) {
+    const apiUrl = "https://chatgpt-42.p.rapidapi.com/conversationgpt4-2";
+    const myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("x-rapidapi-host", "chatgpt-42.p.rapidapi.com");
+    myHeaders.append("x-rapidapi-key", "41fe1a0e90mshaefef9b03b47fafp12947ajsn1b2d644a0f36");
+    const raw = JSON.stringify({
+      "messages": [
+        {
+          "role": "user",
+          "content": question
+        }
+      ],
+      "system_prompt": "",
+      "temperature": 0.9,
+      "top_k": 5,
+      "top_p": 0.9,
+      "max_tokens": 256,
+      "web_access": false
+    });
+    const requestOptions = {
+      method: "POST",
+      headers: myHeaders,
+      body: raw,
+      redirect: "follow"
+    };
+    const response = await fetch(apiUrl, requestOptions);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const result = await response.json();
+    return result.result;
+  }
   let access_token = null;
   let refresh_token = null;
   responseDiv.style.display = "none";
-  const handleAsk = () => {
+  const handleAsk = async () => {
       const question = questionInput.value;
       questionInput.innerHTML = " "
       if (question) {
       askButton.innerHTML = '<img id="loading-img" src="assets/images/loading2.svg" width="110" height="20" alt="Loading" />';
       setResponse('Please wait! Response is coming....')
       setIsLoading(true)
-
+      /////
+      const result = await askQuestionChatGPT(question);
+      setResponse(result);
+      setIsLoading(false)
       // if (access_token) {
-          const headers = {
-              'Content-Type': 'application/json',
-              // 'Authorization': `Bearer ${access_token}`,
-          };
-          const api_url = "https://awesome-terra-400014.lm.r.appspot.com/chat/";
-          const data = { "user_input": question };
-  
-          fetch(api_url, {
-              method: "POST",
-              headers: headers,
-              body: JSON.stringify(data),
-          })
-          .then((response) => {
-              if (response.status === 401) {
-                  refreshAccessToken(refresh_token, makeApiRequest);
-              } else {
-                  console.log("I'm not in response mode", response);
-                  return response.json();
-              }
-          })
-          .then((result) => {
-            forVoice = result.chatbot_response;
-            const ans = result.chatbot_response;
-            setResponse(ans);
-            setIsLoading(false)
-            // toogle()
-          })
-          .catch((error) => {
-            responseDiv.textContent = "Request failed with an error.";
-            setIsLoading(false)
-            setResponse('Something went wrong. Please try again')
-          });
       // } else {
       //   setIsLoading(false)
       //   setResponse('No access token found.')
